@@ -1,0 +1,156 @@
+/* Global styles */
+body {
+  background-image:url(image/ccc.jpg);
+  background-size:cover; 
+  background-repeat:no-repeat; 
+  background-position: center; 
+  text-align:justify;
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  background-color: rgba(241, 237, 237, 0.5);
+}
+header {
+  display: flex;
+  color:red;
+  text-transform: uppercase;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color:whitesmoke;
+
+}
+
+
+.bouty {
+  text-transform: uppercase;
+  font-size: .5rem;
+}
+
+.home ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-right: 2rem;
+  list-style: none;
+}
+
+.home ul li a{
+  text-decoration: none;
+  color: red;
+}
+
+.contact-me {
+  border: 1px solid red;
+  padding: .2rem .4rem;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+  opacity: .5;
+}
+
+nav ul li a:active{
+   color:rgb(161, 4, 4);
+}
+
+/* Main content styles */
+main {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 46px;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 24px;
+  margin-top: 40px;
+}
+
+ul {
+  list-style: disc;
+  margin: 20px 0;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+p {
+  margin-top: 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Form styles */
+form {
+  margin-top: 40px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Footer styles */
+footer {
+  background-color: #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav ul {
+    margin-top: 10px;
+  }
+
+  nav li {
+    margin: 0 5px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}
